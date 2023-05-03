@@ -6,9 +6,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #090000;
 }
 ul{
-    color: #090000;
+    color: #fff;
     font-family: 'CustomFont', sans-serif;
-
+    list-style-type: none;
+}
+li{
+    display: inline;
+    padding: 15px;
+}
+.spacex-logo{
+    height: 300px;
+    width: 300px;
+}
+.logo{
+    height: 300px;
+    width: 300px;
 }

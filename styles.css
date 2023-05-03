@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('/font/FontsFree-Net-D-DIN-Bold.ttf') format('ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    color: #090000;
+    font-family: 'CustomFont', sans-serif;
+
+}

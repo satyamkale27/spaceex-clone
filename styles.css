@@ -6,12 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #090000;
 }
 ul{
     color: #fff;
     font-family: 'CustomFont', sans-serif;
+    font-weight: 500;
     list-style-type: none;
+    text-transform: uppercase;
 }
 li{
     display: inline;
@@ -24,4 +25,21 @@ li{
 .logo{
     height: 300px;
     width: 300px;
+    margin-top: -100px;
+    margin-left: 30px;
+}
+.Navbar{
+    margin-top: -250px;
+    margin-left: 320px;
+}
+li:nth-child(9) {
+    margin-left: 20px;
+}
+.background{
+    width: 100vw;
+    height: 740px;
+    background-image: url(Images/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    background-size: 100rem;
+    background-repeat: no-repeat;
+
 }

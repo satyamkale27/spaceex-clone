@@ -37,9 +37,32 @@ li:nth-child(9) {
 }
 .background{
     width: 100vw;
-    height: 740px;
-    background-image: url(Images/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    height: 730px;
+    background-image: url(Images/mainn.jpg);
     background-size: 100rem;
     background-repeat: no-repeat;
-
+}
+.gri-d{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 20%;
+}
+.row-1{
+    background-image: url(Images/main2.jpg);
+    width: 100vw;
+    height: 730px;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+}
+.row-2{
+    background-image: url(Images/STARSHIP_Testflight_DESKTOP_2b3bea613a.jpg);
+    width: 100vw;
+    height: 730px;
+    background-size: 100rem;
+    background-repeat: no-repeat;
+}
+.footer{
+    background-color: black;
+    height: 100px;
+    width: 100%;
 }

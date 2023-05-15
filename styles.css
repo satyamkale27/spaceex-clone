@@ -28,9 +28,11 @@ li{
     margin-top: -100px;
     margin-left: 30px;
 }
-.Navbar{
+#Navbar{
     margin-top: -250px;
     margin-left: 320px;
+    width: auto;
+    height: auto;
 }
 li:nth-child(9) {
     margin-left: 20px;
@@ -111,4 +113,30 @@ left: 250px;
 .footer a:hover{
     color: gray;
     transition: 0.9s;
+}
+.background h2{
+    color: #fff;
+    margin-left: 50px;
+    position: absolute;
+    margin-top: -40px;
+}
+.background h1{
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 330px;
+    font-size: 40px;
+}
+.text{
+    position: relative;
+}
+.btn{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
 }

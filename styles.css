@@ -66,3 +66,49 @@ li:nth-child(9) {
     height: 100px;
     width: 100%;
 }
+.footer p{
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    position: relative;
+    
+}
+section{
+    overflow: hidden;
+}
+.footer :nth-child(1){
+margin-top: 30px;
+}
+.footer :nth-child(2){
+    margin-left: 400px;
+    top: 30px;
+}
+.footer :nth-child(3){
+    top: 30px;
+}
+.footer :nth-child(4){
+    top: 30px;
+}
+.footer :nth-child(5){
+    top: 30px;
+}
+.footer :nth-child(6){
+    top: 30px;
+}
+.footer :nth-child(7){
+    top: 30px;
+}
+.footer :nth-child(8){
+    top: 30px;
+}
+.spacep{
+position: absolute;
+left: 250px;
+}
+.footer a:hover{
+    color: gray;
+    transition: 0.9s;
+}

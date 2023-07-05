@@ -127,7 +127,7 @@ left: 250px;
     font-size: 40px;
 }
 .text{
-    position: relative;
+    /* position: relative; */
 }
 .btn{
     padding-left: 50px;
@@ -135,6 +135,28 @@ left: 250px;
     padding-top: 20px;
     padding-bottom: 20px;
     margin-left: 50px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+.text1 h2{
+    color: #fff;
+    margin-top: 420px;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.text1 h1{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.btn1{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 80px;
     margin-top: 30px;
     background-color: transparent;
     color: #fff;

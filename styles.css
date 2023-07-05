@@ -162,3 +162,25 @@ left: 250px;
     color: #fff;
     border: 2px solid #fff;
 }
+.text2 h3{
+    color: #fff;
+    margin-top: 480px;
+    font-size: 20px;
+    margin-left: 80px;
+}
+.text2 h1{
+    color: #fff;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.btn2{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 80px;
+    margin-top: 30px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}

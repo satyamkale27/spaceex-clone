@@ -228,6 +228,14 @@ display: none;
         display: block;
     }
     .vsble  {
-        visibility: hidden;
+        /* visibility: hidden; */
+      display: none;
+      margin-left: 470px;
     }
+    .texts-1{
+        position: relative;
+        bottom: 200px;
+    }
+    
+
 }

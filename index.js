@@ -1,6 +1,14 @@
-let burger = document.querySelector('.burger')
-let bar = document.querySelector('.list-responsive')
+const navSlide = () => {
+  const burger = document.querySelector(".burger");
+  const nav = document.querySelector("#Navbar ul");
 
-    burger.addEventListener('click', ()=>{
-        bar.classList.toggle('vsble');
-    })
+  burger.addEventListener("click", () => {
+    // Toggle Nav
+    nav.classList.toggle("nav-active");
+
+    // Burger Animation
+    burger.classList.toggle("toggle");
+  });
+};
+
+navSlide();

@@ -218,7 +218,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 100%;
     transform: translateX(100%);
     transition: transform 0.3s ease-in-out;
   }
@@ -228,8 +228,9 @@ section {
   }
 
   #Navbar ul.nav-active {
-    transform: translateX(0%);
+    transform: translateX(-0%);
     overflow: hidden;
+    z-index: 2;
   }
 
   #Navbar ul.nav-active li {
